@@ -1,0 +1,35 @@
+.link-preview {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.link-preview-image {
+    flex: 0 0 auto;
+    margin-right: 10px;
+}
+
+.link-preview-image img {
+    max-width: 100%;
+}
+
+.link-preview-details {
+    flex: 1 1 auto;
+}
+
+.link-preview-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.link-preview-description {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.link-preview-link {
+    font-size: 14px;
+    color: #0077ff;
+    text-decoration: none;
+}
